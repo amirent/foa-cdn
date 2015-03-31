@@ -92,6 +92,7 @@
 .menu-item-foa{
     width:45px;
     height:45px;
+    overfloa: hidden;
 }
 #ubc7-unit-menu .nav {
     width: 100%;
