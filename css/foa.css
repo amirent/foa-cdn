@@ -1,4 +1,4 @@
--ticker-container{
+.news-ticker-container{
     height: 38px;
     margin-left: -15px;
     padding-right: 30px;
@@ -96,64 +96,64 @@
 #ubc7-unit-menu .nav {
     width: 100%;
 }
-            .sr-col1, .sr-col2, .sr-col3{
-                background-repeat: no-repeat;
-                padding: 0 34px;
-            }
-            .sr-col1-content, .sr-col2-content, .sr-col3-content {
-                padding-left: 15px;
-                margin-top:21px;
-                height:530px;
-                overflow-y: scroll;
-            }
-                        .sr-col1 h3, .sr-col2 h3, .sr-col3 h3{
-                margin-left:40px;
-            }
-            .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
-                width: 100% !important;
-            }
-            
-            .sr-post-item{
-                border-bottom: 1px solid #999;
-            }
-            /* Flickr */
-            .flickr-container, .instagram-container{
-                list-style-type: none;
-                width: 122px;
-                margin-left: 5px !important;
-                float: left;
-            }
-            .flickr-wrapper, .instagram-wrapper {
-                position: relative;
-                padding: 0;
-                width:122px;
-                margin-right: 5px;
-                margin-bottom: 5px;
-                
-            }
-            .flickr-wrapper .flickr-text, .instagram-wrapper .instagram-text {
-                position: absolute;
-                top: 0;
-                color:#FFFFFF;
-                background-color:rgba(31,134,187,0.8);
-                width: 122px;
-                height:100%;
-                text-align: center;
-                z-index: 10;
-                opacity: 0;
-                -webkit-transition: all 0.5s ease;
-                -moz-transition: all 0.5s ease;
-                -o-transition: all 0.5s ease;
-                transition: all 0.5s ease;
-            }
-            .flickr-wrapper .flickr-text:hover, .instagram-wrapper .instagram-text:hover {
-                background-color: ;
-                opacity:0.8;
-                overflow: hidden;
-            }
-            .flickr-wrapper img, .instagram-wrapper img {
-                z-index:1;
-            }
+.sr-col1, .sr-col2, .sr-col3{
+    background-repeat: no-repeat;
+    padding: 0 34px;
+}
+.sr-col1-content, .sr-col2-content, .sr-col3-content {
+    padding-left: 15px;
+    margin-top:21px;
+    height:530px;
+    overflow-y: scroll;
+}
+            .sr-col1 h3, .sr-col2 h3, .sr-col3 h3{
+    margin-left:40px;
+}
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+.sr-post-item{
+    border-bottom: 1px solid #999;
+}
+/* Flickr */
+.flickr-container, .instagram-container{
+    list-style-type: none;
+    width: 122px;
+    margin-left: 5px !important;
+    float: left;
+}
+.flickr-wrapper, .instagram-wrapper {
+    position: relative;
+    padding: 0;
+    width:122px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+}
+.flickr-wrapper .flickr-text, .instagram-wrapper .instagram-text {
+    position: absolute;
+    top: 0;
+    color:#FFFFFF;
+    background-color:rgba(31,134,187,0.8);
+    width: 122px;
+    height:100%;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.flickr-wrapper .flickr-text:hover, .instagram-wrapper .instagram-text:hover {
+    background-color: ;
+    opacity:0.8;
+    overflow: hidden;
+}
+.flickr-wrapper img, .instagram-wrapper img {
+    z-index:1;
+}
 @media (min-width: 1200px){
     .entry-content{
         width: 1170px;
@@ -220,18 +220,18 @@
         display: none;   
     }
 }
-            @media(max-width:980px){
-                .menu-item-foa{
-                    float: none;
-                    width:100%;
-                }
-                #artslogo{
-                    float:none;
-                }
-                #artslogo img{
-                    margin-right: 10px;
-                }
-                a#applybtn {
-                    width: 100%;
-                }
-            }
+@media(max-width:980px){
+    .menu-item-foa{
+        float: none;
+        width:100%;
+    }
+    #artslogo{
+        float:none;
+    }
+    #artslogo img{
+        margin-right: 10px;
+    }
+    a#applybtn {
+        width: 100%;
+    }
+}
